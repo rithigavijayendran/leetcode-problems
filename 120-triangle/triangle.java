@@ -4,6 +4,7 @@ class Solution {
     int[][] dp;
 
     public int helper(List<List<Integer>> triangle, int r, int c) {
+        if(r>=triangle.size()||c>=triangle.get(r).size()) return Integer.MAX_VALUE;
         if (r == triangle.size() - 1) return triangle.get(r).get(c); 
         if (dp[r][c] != -1) return dp[r][c];
         
@@ -16,8 +17,8 @@ class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int m = triangle.size();
         dp = new int[m][m]; 
-        for (int[] row : dp) {
-            Arrays.fill(row, -1);
+        for (int[] x : dp) {
+            Arrays.fill(x, -1);
         }
 
         return helper(triangle, 0, 0);
