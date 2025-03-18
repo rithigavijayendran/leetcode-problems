@@ -1,21 +1,17 @@
 class Solution {
-    int[][] dp;
-    public int helper(int m,int n,int r,int c){
-        if(r>=m || c>=n) return 0;
-        if(r==m-1 || c==n-1) return 1;
-        if(dp[r][c] != -1) return dp[r][c];
-        int right = helper(m,n,r,c+1);
-        int down = helper(m,n,r+1,c);
-        int uniquepaths = right+down;
-        return dp[r][c] = uniquepaths;
-    }
-    public int uniquePaths(int m, int n) {
-        int r=0;
-        int c=0;
-        dp = new int[m][n];
-        for(int[]x:dp){
-            Arrays.fill(x,-1);
+    public int uniquePaths(int r, int c) {
+        int[][] dp = new int[r][c];
+        for(int i=0;i<r;i++){
+            dp[i][c-1] = 1;
         }
-        return helper(m,n,r,c);
+        for(int i=0;i<c;i++){
+            dp[r-1][i] = 1;
+        }
+        for(int i=r-2;i>=0;i--){
+            for(int j=c-2;j>=0;j--){
+                dp[i][j] = dp[i+1][j]+dp[i][j+1];
+            }
+        }
+        return dp[0][0];
     }
 }
