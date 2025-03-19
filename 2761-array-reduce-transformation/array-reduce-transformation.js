@@ -10,9 +10,8 @@ var reduce = function(nums, fn, init) {
         return init;
     }
     for(let i=0;i<nums.length;i++){
-        let t=fn(init,nums[i]);
-        ans=t;
-        init = t;
+        ans=fn(init,nums[i]);
+        init = ans;
     }
     return ans;
 };
