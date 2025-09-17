@@ -6,12 +6,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0006-zigzag-conversion](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0012-integer-to-roman) |
+| [0383-ransom-note](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0383-ransom-note) |
 ## Hash Table
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0012-integer-to-roman) |
+| [0383-ransom-note](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0383-ransom-note) |
 ## Math
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0012-integer-to-roman) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
