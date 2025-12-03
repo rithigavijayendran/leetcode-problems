@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0012-integer-to-roman) |
+| [0066-plus-one](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0066-plus-one) |
 ## Counting
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0066-plus-one) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/rithigavijayendran/leetcode-problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 ## Two Pointers
 |  |
